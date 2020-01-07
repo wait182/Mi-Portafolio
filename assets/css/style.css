@@ -1,0 +1,61 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+body * {
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+
+.bg-purple {
+  background: #660066;
+}
+
+.img-bg {
+  background-image: url('../img/bg-hero.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-shadow: 0.125em 0.25em 0.125em #707070;
+
+}
+
+@media (min-width: 768px) {
+  .img-bg {
+    padding: 15rem 10rem;
+    text-align: right;
+  }
+  .icon {
+    font-size: 5em;
+  }
+}
+
+@media (max-width: 768px) {
+  .img-bg {
+    text-align: center;
+    padding-top: 12.5rem;
+    padding-bottom: 0.25rem;
+  }
+  .icon {
+    font-size: 5em;
+  }
+}
+
+@media (max-width: 360px) {
+  .logo {
+    width: 100%;
+  }
+  .icon {
+    font-size: 4em;
+  }
+}
+
+.title {
+  padding: 3rem;
+}
+
+.icons {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
