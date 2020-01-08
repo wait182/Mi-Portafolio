@@ -21,7 +21,6 @@ body * {
   background-repeat: no-repeat;
   background-size: cover;
   text-shadow: 0.125em 0.25em 0.125em #707070;
-
 }
 
 @media (min-width: 768px) {
