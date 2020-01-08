@@ -1,6 +1,5 @@
 body {
   font-family: 'Roboto', sans-serif;
-  font-weight: 300;
 }
 
 body * {
@@ -10,7 +9,11 @@ body * {
 }
 
 .bg-purple {
-  background: #660066;
+  background: #850385;
+}
+
+.bg-green {
+  background: #bf77bc;
 }
 
 .img-bg {
@@ -29,6 +32,9 @@ body * {
   .icon {
     font-size: 5em;
   }
+  .logo {
+    font-size: 3.5em;
+  }
 }
 
 @media (max-width: 768px) {
@@ -40,14 +46,17 @@ body * {
   .icon {
     font-size: 5em;
   }
+  .logo {
+    font-size: 3.5em;
+  }
 }
 
 @media (max-width: 360px) {
   .logo {
-    width: 100%;
+    font-size: 2.7em;
   }
   .icon {
-    font-size: 4em;
+    font-size: 3.8em;
   }
 }
 
@@ -58,4 +67,9 @@ body * {
 .icons {
   padding-top: 2rem;
   padding-bottom: 2rem;
+}
+
+.contact {
+  margin: 2rem;
+  padding: 0.75rem;
 }
