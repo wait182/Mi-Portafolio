@@ -2,7 +2,7 @@ $(function(){
 
   $('[data-toggle="popover"]').popover();
 
-  $("a").click(function(event){
+  $(".nav-link, .navbar-brand").click(function(event){
     if (this.hash !== "") {
       event.preventDefault();
 
